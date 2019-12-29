@@ -120,4 +120,9 @@
     <!-- Old style battery graph -->
     <string name="use_old_battery_graph_title">Use old style battery graph</string>
     <string name="use_old_battery_graph_summary">Show line chart instead of histogram for battery stats</string>
+
+    <!-- Ambient Wake gesture -->
+    <string name="ambient_pulse_title">Ambient Pulse</string>
+    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
 </resources>
