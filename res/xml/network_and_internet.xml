@@ -61,14 +61,14 @@
         settings:controller="com.android.settings.network.AirplaneModePreferenceController"
         settings:userRestriction="no_airplane_mode"/>
 
-    <com.android.settingslib.RestrictedPreference
+    <!-- <com.android.settingslib.RestrictedPreference
         android:key="manage_mobile_plan"
         android:title="@string/manage_mobile_plan_title"
         android:icon="@drawable/ic_settings_mobile_plan"
         android:persistent="false"
         android:order="19"
         settings:userRestriction="no_config_mobile_networks"
-        settings:useAdminDisabledSummary="true" />
+        settings:useAdminDisabledSummary="true" /> -->
 
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.TetherSettings"
