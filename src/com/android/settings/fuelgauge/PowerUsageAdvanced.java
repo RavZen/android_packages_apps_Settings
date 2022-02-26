@@ -25,6 +25,7 @@ import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.SearchIndexableResource;
+import android.provider.Settings;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -207,7 +208,8 @@ public class PowerUsageAdvanced extends PowerUsageBase {
         if (mPowerUsageFeatureProvider == null) {
             mPowerUsageFeatureProvider = FeatureFactory.getFactory(context)
                     .getPowerUsageFeatureProvider(context);
-            mIsChartGraphEnabled = mPowerUsageFeatureProvider.isChartGraphEnabled(context);
+            mIsChartGraphEnabled = Settings.System.getInt(context.getContentResolver(),
+                Settings.System.USE_OLD_BATTERY_GRAPH, 0) == 0;
         }
     }
 

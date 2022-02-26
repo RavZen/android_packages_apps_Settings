@@ -24,7 +24,8 @@ import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.provider.Settings.Global;
+import android.provider.Settings;
+import androidx.preference.Preference;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
@@ -177,7 +178,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     public void onResume() {
         super.onResume();
         getContentResolver().registerContentObserver(
-                Global.getUriFor(Global.BATTERY_ESTIMATES_LAST_UPDATE_TIME),
+                Settings.Global.getUriFor(Settings.Global.BATTERY_ESTIMATES_LAST_UPDATE_TIME),
                 false,
                 mSettingsObserver);
     }
@@ -255,7 +256,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
     void initPreference() {
         mBatteryUsagePreference = findPreference(KEY_BATTERY_USAGE);
         mBatteryUsagePreference.setSummary(
-                mPowerFeatureProvider.isChartGraphEnabled(getContext()) ?
+                Settings.System.getInt(getContext().getContentResolver(),
+                    Settings.System.USE_OLD_BATTERY_GRAPH, 0) == 0 ?
                         getString(R.string.advanced_battery_preference_summary_with_hours) :
                         getString(R.string.advanced_battery_preference_summary));
 

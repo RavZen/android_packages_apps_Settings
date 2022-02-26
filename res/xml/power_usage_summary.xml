@@ -23,6 +23,12 @@
         android:title="@string/summary_placeholder"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="use_old_battery_graph"
+        android:title="@string/use_old_battery_graph_title"
+        android:summary="@string/use_old_battery_graph_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:fragment="com.android.settings.fuelgauge.PowerUsageAdvanced"
         android:key="battery_usage_summary"

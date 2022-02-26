@@ -117,4 +117,7 @@
     <string name="screen_off_fod_title">Screen off FOD</string>
     <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
 
+    <!-- Old style battery graph -->
+    <string name="use_old_battery_graph_title">Use old style battery graph</string>
+    <string name="use_old_battery_graph_summary">Show line chart instead of histogram for battery stats</string>
 </resources>
