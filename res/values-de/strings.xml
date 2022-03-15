@@ -5641,5 +5641,6 @@
     <string name="wake_when_plugged_or_unplugged_title">Beim Einstecken aufwecken</string>
     <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
 
+    <string name="build_tweaks_summary_title">Erweiterte Einstellungen</string>
 
 </resources>
