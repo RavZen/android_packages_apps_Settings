@@ -5,43 +5,36 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/accessibility_vibration_settings_title">
 
-    <PreferenceCategory
-        android:key="vibrate_for_calls_category"
-        android:title="@string/vibrate_for_calls_category_title"
-        settings:controller="com.google.android.settings.sound.VibrateForCallsCategoryPreferenceController">
+    <Preference
+        android:fragment="com.android.settings.accessibility.RingVibrationPreferenceFragment"
+        android:key="ring_vibration_preference_screen"
+        android:title="@string/accessibility_ring_vibration_title"
+        settings:keywords="@string/keywords_ring_vibration"
+        app:controller="com.android.settings.accessibility.RingVibrationIntensityPreferenceController" />
 
-        <Preference
-            android:fragment="com.google.android.settings.sound.VibrateForCallsPreferenceFragment"
-            android:key="vibrate_for_calls"
-            android:title="@string/vibrate_when_ringing_title"
-            settings:controller="com.google.android.settings.sound.VibrateForCallsPreferenceController" />
+    <Preference
+        android:fragment="com.android.settings.accessibility.NotificationVibrationPreferenceFragment"
+        android:key="notification_vibration_preference_screen"
+        android:title="@string/accessibility_notification_vibration_title"
+        settings:keywords="@string/keywords_notification_vibration"
+        app:controller="com.android.settings.accessibility.NotificationVibrationIntensityPreferenceController" />
 
-    </PreferenceCategory>
+    <Preference
+        android:fragment="com.android.settings.accessibility.TouchVibrationPreferenceFragment"
+        android:key="touch_vibration_preference_screen"
+        android:title="@string/accessibility_touch_vibration_title"
+        settings:keywords="@string/keywords_touch_vibration"
+        app:controller="com.android.settings.accessibility.HapticFeedbackIntensityPreferenceController" />
+    
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="fingerprint_success_vib"
+            android:title="@string/fprint_sucess_vib_title"
+            android:summary="@string/fprint_sucess_vib_summary"
+            android:defaultValue="true" />
 
-    <PreferenceCategory
-        android:key="vibration_haptics_strength_category"
-        android:title="@string/vibration_haptics_strength_category_title">
-
-        <Preference
-            android:fragment="com.android.settings.accessibility.RingVibrationPreferenceFragment"
-            android:key="ring_vibration_preference_screen"
-            android:title="@string/accessibility_ring_vibration_title"
-            settings:keywords="@string/keywords_ring_vibration"
-            app:controller="com.android.settings.accessibility.RingVibrationIntensityPreferenceController" />
-
-        <Preference
-            android:fragment="com.android.settings.accessibility.NotificationVibrationPreferenceFragment"
-            android:key="notification_vibration_preference_screen"
-            android:title="@string/accessibility_notification_vibration_title"
-            settings:keywords="@string/keywords_notification_vibration"
-            app:controller="com.android.settings.accessibility.NotificationVibrationIntensityPreferenceController" />
-
-        <Preference
-            android:fragment="com.android.settings.accessibility.TouchVibrationPreferenceFragment"
-            android:key="touch_vibration_preference_screen"
-            android:title="@string/accessibility_touch_vibration_title"
-            settings:keywords="@string/keywords_touch_vibration"
-            app:controller="com.android.settings.accessibility.HapticFeedbackIntensityPreferenceController" />
-
-    </PreferenceCategory>
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_error_vib"
+        android:title="@string/fprint_error_vib_title"
+        android:summary="@string/fprint_error_vib_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
