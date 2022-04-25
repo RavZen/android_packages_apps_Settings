@@ -27,6 +27,7 @@ import android.content.DialogInterface;
 import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
 import android.provider.Settings.Global;
 import android.view.Menu;
 import android.view.MenuInflater;
