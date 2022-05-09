@@ -145,7 +145,12 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 
-     <!-- Battery stats reset -->
+    <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
+
 </resources>
