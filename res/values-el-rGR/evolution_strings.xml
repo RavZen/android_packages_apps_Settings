@@ -24,8 +24,8 @@
     <string name="build_date">Ημερομηνία κατασκευής</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Συντηρητής έκδοσης</string>
-    <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
+    <!-- Configurations -->
+    <string name="evolver_dashboard_title">Configurations</string>
     <string name="evolver_dashboard_summary">Ώρα να συνεχίσετε την Evolution της συσκευής σας</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Κατάσταση SELinux</string>

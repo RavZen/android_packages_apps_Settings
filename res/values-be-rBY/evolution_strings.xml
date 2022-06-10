@@ -24,8 +24,8 @@
     <string name="build_date">Дата зборкі</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Суправаджальнік</string>
-    <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
+    <!-- Configurations -->
+    <string name="evolver_dashboard_title">Configurations</string>
     <string name="evolver_dashboard_summary">Час працягнуць эвалюцыю вашай прылады</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Стан SELinux</string>

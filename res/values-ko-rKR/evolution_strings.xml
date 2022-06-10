@@ -24,7 +24,7 @@
     <string name="build_date">빌드 날짜</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">빌드 관리자</string>
-    <!-- The Evolver -->
+    <!-- Configurations -->
     <string name="evolver_dashboard_title">Evolver</string>
     <string name="evolver_dashboard_summary">기기의 진화를 계속해야 할 때</string>
     <!-- SELinux Status -->

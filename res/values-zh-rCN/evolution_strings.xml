@@ -13,7 +13,7 @@
     <string name="build_date">编译日期</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">构建维护者</string>
-    <!-- The Evolver -->
+    <!-- Configurations -->
     <string name="evolver_dashboard_title">Evolution 自定义</string>
     <string name="evolver_dashboard_summary">是时候继续进化您的设备了</string>
     <!-- SELinux Status -->

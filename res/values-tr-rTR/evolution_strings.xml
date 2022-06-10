@@ -13,8 +13,8 @@
     <string name="build_date">Sürüm tarihi</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Cihaz sorumlusu</string>
-    <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
+    <!-- Configurations -->
+    <string name="evolver_dashboard_title">Configurations</string>
     <string name="evolver_dashboard_summary">Evrime devam etme zamanı, şimdi 12.1</string>
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux durumu</string>

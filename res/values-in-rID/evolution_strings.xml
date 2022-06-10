@@ -13,8 +13,8 @@
     <string name="build_date">Tanggal pembuatan</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Pengelola</string>
-    <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
+    <!-- Configurations -->
+    <string name="evolver_dashboard_title">Configurations</string>
     <string name="evolver_dashboard_summary">Saatnya melanjutkan Evolusi di perangkat Anda</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Status SELinux</string>

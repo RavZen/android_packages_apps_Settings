@@ -13,7 +13,7 @@
     <string name="build_date">Data da compilação</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Mantenedor</string>
-    <!-- The Evolver -->
+    <!-- Configurations -->
     <string name="evolver_dashboard_title">Evolução</string>
     <string name="evolver_dashboard_summary">Hora de continuar a Evolução do seu dispositivo</string>
     <!-- SELinux Status -->

@@ -19,9 +19,9 @@
     <string name="build_maintainer_summary" translatable="false">Unknown</string>
     <string name="build_maintainer_telegram" translatable="false">https://t.me/EvolutionX</string>
 
-    <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">The Evolution of your device, now on 12.1</string>
+    <!-- Configurations -->
+    <string name="evolver_dashboard_title">Configurations</string>
+    <string name="evolver_dashboard_summary">Advanced Settings for your OS</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>

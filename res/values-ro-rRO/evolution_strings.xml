@@ -13,7 +13,7 @@
     <string name="build_date">Dată compilare</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Dezvoltator</string>
-    <!-- The Evolver -->
+    <!-- Configurations -->
     <string name="evolver_dashboard_title">Setări avansate ROM</string>
     <string name="evolver_dashboard_summary">Este timpul să continuați Evoluția dispozitivului</string>
     <!-- SELinux Status -->

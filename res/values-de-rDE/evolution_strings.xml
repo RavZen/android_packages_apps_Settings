@@ -13,9 +13,9 @@
     <string name="build_date">Build-Datum</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">Build-Betreuer</string>
-    <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
-    <string name="evolver_dashboard_summary">Zeit, die Evolution Ihres Geräts fortzusetzen</string>
+    <!-- Configurations -->
+    <string name="evolver_dashboard_title">Konfigurationen</string>
+    <string name="evolver_dashboard_summary">Erweiterte OS Einstellungen</string>
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux-Status</string>
     <string name="selinux_status_disabled">Deaktiviert</string>

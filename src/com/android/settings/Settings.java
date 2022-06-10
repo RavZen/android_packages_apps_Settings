@@ -326,7 +326,7 @@ public class Settings extends SettingsActivity {
     public static class AppDashboardActivity extends SettingsActivity {}
 
     /**
-     * Activity for The Evolver
+     * Activity for Configurations
      */
     public static class EvolutionSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }

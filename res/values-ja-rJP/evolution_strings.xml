@@ -13,8 +13,8 @@
     <string name="build_date">ビルド日時</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">ビルドメンテナ</string>
-    <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
+    <!-- Configurations -->
+    <string name="evolver_dashboard_title">Configurations</string>
     <string name="evolver_dashboard_summary">デバイスの次の進化の時が来ました。さあ12.1です。</string>
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux ステータス</string>
