@@ -8,14 +8,14 @@
     <string name="platform_revision">النظام</string>
     <string name="total_ram">إجمالي ذاكرة الوصول العشوائي</string>
     <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">إصدار Evolution X</string>
+    <string name="evolution_x_version">إصدار Ravzen</string>
     <!-- About device screen, Build date -->
     <string name="build_date">تاريخ البناء</string>
     <!-- About device screen, build maintainer -->
     <string name="build_maintainer">المشرف على بناء الإصدار</string>
     <!-- The Evolver -->
     <string name="evolver_dashboard_title">المطوّر</string>
-    <string name="evolver_dashboard_summary">The Evolution of your device, now on 12.1</string>
+    <string name="evolver_dashboard_summary">The Ravzen of your device, now on 12.1</string>
     <!-- SELinux Status -->
     <string name="selinux_status">حالة SELinux</string>
     <string name="selinux_status_disabled">معطل</string>

@@ -8,7 +8,7 @@
     <string name="platform_revision">Plataforma</string>
     <string name="total_ram">Total de RAM</string>
     <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Versão do Evolution X</string>
+    <string name="evolution_x_version">Versão do Ravzen</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Data de compilação</string>
     <!-- About device screen, build maintainer -->

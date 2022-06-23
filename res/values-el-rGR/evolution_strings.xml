@@ -19,7 +19,7 @@
     <string name="platform_revision">Πλατφόρμα</string>
     <string name="total_ram">Συνολική RAM</string>
     <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Έκδοση Evolution X</string>
+    <string name="evolution_x_version">Έκδοση Ravzen</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Ημερομηνία κατασκευής</string>
     <!-- About device screen, build maintainer -->

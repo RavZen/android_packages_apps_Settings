@@ -8,7 +8,7 @@
     <string name="platform_revision">Платформа</string>
     <string name="total_ram">Всего ОЗУ</string>
     <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Версия Evolution X</string>
+    <string name="evolution_x_version">Версия Ravzen</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Дата сборки</string>
     <!-- About device screen, build maintainer -->

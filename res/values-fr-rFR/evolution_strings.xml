@@ -19,7 +19,7 @@
     <string name="platform_revision">Plateforme</string>
     <string name="total_ram">Mémoire RAM totale</string>
     <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Version de Evolution X</string>
+    <string name="evolution_x_version">Version de Ravzen</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Date de compilation</string>
     <!-- About device screen, build maintainer -->

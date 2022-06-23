@@ -19,7 +19,7 @@
     <string name="platform_revision">Платформа</string>
     <string name="total_ram">Усяго АЗП</string>
     <!-- About device screen, Evolution X -->
-    <string name="evolution_x_version">Версія Evolution X</string>
+    <string name="evolution_x_version">Версія Ravzen</string>
     <!-- About device screen, Build date -->
     <string name="build_date">Дата зборкі</string>
     <!-- About device screen, build maintainer -->
