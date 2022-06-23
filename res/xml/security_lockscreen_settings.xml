@@ -57,23 +57,12 @@
             android:summary="@string/owner_info_settings_summary" />
 
         <SwitchPreference
-            android:key="lockscreen_privacy_wallet_switch"
-            android:title="@string/lockscreen_privacy_wallet_setting_toggle"
-            android:summary="@string/lockscreen_privacy_wallet_summary"
-            settings:controller="com.android.settings.display.WalletPrivacyPreferenceController" />
-
-        <SwitchPreference
-            android:key="lockscreen_privacy_controls_switch"
-            android:title="@string/lockscreen_privacy_controls_setting_toggle"
-            android:summary="@string/lockscreen_privacy_controls_summary"
-            settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
-
-        <SwitchPreference
             android:key="lockscreen_double_line_clock_switch"
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
     </PreferenceCategory>
+
 
     <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
@@ -148,4 +137,54 @@
 
     </PreferenceCategory>
 
+
+    <PreferenceCategory
+        android:key="lockscreen_shortcuts"
+         android:order="1002"
+        android:title="@string/lockscreen_shortcuts_category">
+
+            <SwitchPreference
+                android:key="lockscreen_privacy_controls_switch"
+                android:title="@string/lockscreen_privacy_controls_setting_toggle"
+                android:summary="@string/lockscreen_privacy_controls_summary"
+                android:disableDependentsState="true"
+                settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
+
+            <com.evolution.settings.preference.SystemSettingSwitchPreference
+                android:key="lockscreen_show_voice_shortcut"
+                android:title="@string/lockscreen_show_voice_shortcut"
+                android:summary="@string/lockscreen_show_voice_shortcut_summary"
+                android:dependency="lockscreen_privacy_controls_switch"
+                android:defaultValue="false" />
+
+            <com.evolution.settings.preference.SystemSettingSwitchPreference
+                android:key="lockscreen_show_left_phone_shortcut"
+                android:title="@string/lockscreen_show_phone_shortcut"
+                android:summary="@string/lockscreen_show_phone_shortcut_summary"
+                android:dependency="lockscreen_show_voice_shortcut"
+                android:defaultValue="false" />
+
+            <SwitchPreference
+                android:key="lockscreen_privacy_wallet_switch"
+                android:title="@string/lockscreen_privacy_wallet_setting_toggle"
+                android:summary="@string/lockscreen_privacy_wallet_summary"
+                android:disableDependentsState="true"
+                settings:controller="com.android.settings.display.WalletPrivacyPreferenceController" />
+
+            <com.evolution.settings.preference.SystemSettingSwitchPreference
+                android:key="lockscreen_show_camera_shortcut"
+                android:title="@string/lockscreen_show_camera_shortcut"
+                android:dependency="lockscreen_privacy_wallet_switch"
+                android:summary="@string/lockscreen_show_camera_shortcut_summary"
+                android:defaultValue="false" />
+
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="lockscreen_shortcuts_footer"
+        android:title="@string/lockscreen_shortcuts_dialog_message"
+        android:selectable="false"
+        settings:searchable="false"/>
+
+ </PreferenceCategory>
+ 
 </PreferenceScreen>
