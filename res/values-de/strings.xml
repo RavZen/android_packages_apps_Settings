@@ -5588,4 +5588,29 @@
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Verbinden"</string>
     <string name="evolver_dashboard_title">Konfigurationen</string>
     <string name="evolver_dashboard_summary">Erweiterte OS Einstellungen</string>
+
+    <string name="advanced_battery_saving_title">Erweitertes Energiesparen</string>
+    <string name="advanced_battery_saving_summary">Erweiterte Einstellungen um Batterie zu sparen</string>
+
+        <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm Blocker</string>
+    <string name="alarm_blocker_title">Aktivieren</string>
+    <string name="alarm_blocker_summary">Alarme bei ausgeschaltetem Bildschirm blockieren</string>
+    <string name="alarm_blocker_save">Speichern</string>
+    <string name="alarm_list_header">Verfügbare Alarme</string>
+    <string name="alarm_blocker_reload">Aktualisieren</string>
+    <string name="alarm_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
+    <string name="alarm_blocker_warning">Das Blockieren von Alarmen kann Instabilität, Abstürze und Datenverlust verursachen.</string>
+
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">System Wakelocks blockieren</string>
+    <string name="wakelock_blocker_save">Speichern</string>
+    <string name="wakelock_list_header">Verfügbare wakelocks</string>
+    <string name="wakelock_blocker_reload">Aktualisieren</string>
+    <string name="wakelock_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
+    <string name="wakelock_blocker_warning">as Blockieren von Wakelocks kann Instabilität, Abstürze und Datenverlust verursachen</string>
+
+        <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-app</string>
+    <string name="sensor_block_summary">Blockiert sensor zugriff der apps um Batterie zu sparen</string>
 </resources>
