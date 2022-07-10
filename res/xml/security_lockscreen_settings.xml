@@ -114,7 +114,7 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <com.statix.support.preferences.SystemSettingSwitchPreference
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="ambient_wake_gestures"
             android:title="@string/ambient_wake_gestures_title"
             android:summary="@string/ambient_wake_gestures_summary"

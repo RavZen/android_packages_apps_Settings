@@ -25,14 +25,20 @@
         android:title="@string/accessibility_touch_vibration_title"
         settings:keywords="@string/keywords_touch_vibration"
         app:controller="com.android.settings.accessibility.HapticFeedbackIntensityPreferenceController" />
+
+      <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="fingerprint_start_vib"
+        android:title="@string/fprint_start_vib_title"
+        android:summary="@string/fprint_start_vib_summary"
+        android:defaultValue="true" />
     
-    <com.statix.support.preferences.SystemSettingSwitchPreference
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="fingerprint_success_vib"
             android:title="@string/fprint_sucess_vib_title"
             android:summary="@string/fprint_sucess_vib_summary"
             android:defaultValue="true" />
 
-    <com.statix.support.preferences.SystemSettingSwitchPreference
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="fingerprint_error_vib"
         android:title="@string/fprint_error_vib_title"
         android:summary="@string/fprint_error_vib_summary"
