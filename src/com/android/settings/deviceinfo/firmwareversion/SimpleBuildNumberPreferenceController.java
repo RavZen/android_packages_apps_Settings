@@ -36,6 +36,7 @@ public class SimpleBuildNumberPreferenceController extends BasePreferenceControl
 
     @Override
     public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+        String buildInfo = String.valueOf(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+        return buildInfo.replace("evolution", "ravzen");
     }
 }
