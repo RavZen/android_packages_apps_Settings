@@ -5610,12 +5610,16 @@
     <string name="wakelock_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
     <string name="wakelock_blocker_warning">as Blockieren von Wakelocks kann Instabilität, Abstürze und Datenverlust verursachen</string>
 
-        <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-app</string>
-    <string name="sensor_block_summary">Blockiert sensor zugriff der apps um Batterie zu sparen</string>
-
         <!-- Ambient Wake gesture -->
     <string name="ambient_pulse_title">Ambient Pulse</string>
     <string name="ambient_wake_gestures_title">Ambient-Weckgesten</string>
     <string name="ambient_wake_gestures_summary">Ambient Display anstelle des normalem Sperrbildschirms bei Weckgesten anzeigen</string>
+
+        <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-app</string>
+    <string name="sensor_block_summary">Blockieren Sie den Zugriff auf bestimmte Sensoren für einige Anwendungen, um den Akku zu schonen.</string>
+    <string name="sensor_block_app_picker_title">Sensoren für diese Anwendungen blockieren</string>
+    <string name="add_sensor_block_package_title">Anwendungen für Sensorblock hinzufügen</string>
+    <string name="add_sensor_block_package_summary">Signifikante Bewegungs-, Beschleunigungs- und lineare Beschleunigungssensoren werden für diese Anwendungen blockiert</string>
+
 </resources>

@@ -23,6 +23,13 @@
         android:summary="@string/idle_manager_summary"
         android:defaultValue="false" />
 
+           <!-- Sensor Block -->
+        <Preference
+            android:key="sensor_block_settings"
+            android:title="@string/sensor_block_title"
+            android:summary="@string/sensor_block_summary"
+            android:fragment="com.android.settings.fuelgauge.SensorBlockSettings"/>
+
        <Preference
             android:key="alarm_blocker"
             android:title="@string/alarm_blocker"
