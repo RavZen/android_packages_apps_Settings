@@ -38,6 +38,8 @@
 
         <SwitchPreference android:key="doze_on_charge" android:title="@string/doze_on_charge_title" android:summary="@string/doze_on_charge_summary" settings:controller="com.android.settings.display.DozeOnChargePreferenceController" />
 
+        <Preference android:key="always_on_display_schedule" android:title="@string/always_on_display_schedule_title" android:fragment="com.evolution.settings.fragments.AODSchedule" />
+
         <SwitchPreference android:key="pulse_on_new_tracks" android:title="@string/pulse_on_new_tracks_title" android:summary="@string/pulse_on_new_tracks_summary" settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
 
         <Preference android:key="ambient_display_tap" android:title="@string/ambient_display_tap_screen_title" android:fragment="com.android.settings.gestures.TapScreenGestureSettings" settings:searchable="false" settings:controller="com.android.settings.gestures.TapScreenGesturePreferenceController" />
