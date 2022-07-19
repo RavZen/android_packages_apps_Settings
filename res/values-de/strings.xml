@@ -5622,4 +5622,29 @@
     <string name="add_sensor_block_package_title">Anwendungen für Sensorblock hinzufügen</string>
     <string name="add_sensor_block_package_summary">Signifikante Bewegungs-, Beschleunigungs- und lineare Beschleunigungssensoren werden für diese Anwendungen blockiert</string>
 
+   <!-- Schlafmodus -->
+    <string name="sleep_mode_title">Schlafmodus</string>
+    <string name="sleep_mode_summary_on">Ein / <xliff:g name="auto_mode_summary" example="Nie automatisch ausschalten">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Aus / <xliff:g name="auto_mode_summary" example="Nie automatisch einschalten">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Rufmodus</string>
+    <string name="sleep_mode_ringer_off_title">Nicht ändern</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrieren</string>
+    <string name="sleep_mode_ringer_dnd_title">Nicht stören</string>
+    <string name="sleep_mode_ringer_silent_title">Still</string>
+    <string name="sleep_mode_schedule_sunset">Sonnenuntergang</string>
+    <string name="sleep_mode_schedule_sunrise">Sonnenaufgang</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Schaltet von Sonnenuntergang bis zu einer benutzerdefinierten Zeit ein</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Einschalten von einer benutzerdefinierten Zeit bis zum Sonnenaufgang</string>
+    <string name="sleep_mode_toggles_title">Schaltet um</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi ausschalten</string>
+    <string name="sleep_mode_wifi_toggle_summary">Wi-Fi deaktivieren, wenn der Ruhemodus eingeschaltet ist</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth ausschalten</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Bluetooth ausschalten, wenn der Ruhemodus eingeschaltet ist</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobilfunkdaten ausschalten</string>
+    <string name="sleep_mode_cellular_toggle_summary">Mobilfunkdaten deaktivieren, wenn der Ruhemodus eingeschaltet ist</string>
+    <string name="sleep_mode_location_toggle_title">Standort ausschalten</string>
+    <string name="sleep_mode_location_toggle_summary">Standort deaktivieren, wenn der Ruhemodus eingeschaltet ist</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensoren ausschalten</string>
+    <string name="sleep_mode_sensors_toggle_summary">Sensoren ausschalten, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_display_text">Im Schlafmodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon im Schlaf leise zu stellen.</string>
 </resources>
