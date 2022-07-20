@@ -35,8 +35,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
-    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
 
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
@@ -103,7 +103,8 @@
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <string name="app_lock_summary_singular">1 application is protected</string>
-    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
+    <string name="app_lock_summary_plural">
+        <xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
     <string name="app_lock_authentication_dialog_title">Unlock</string>
     <string name="enable_debugging">Enable debugging</string>
     <string name="disable_debugging">Disable debugging</string>
@@ -349,7 +350,9 @@
     <string name="package_details_group_title">Package details</string>
     <string name="package_name">Package name</string>
     <string name="package_version">Package version</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <string name="package_version_text">
+        <xliff:g id="version_num">%1$s</xliff:g>
+    </string>
 
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
@@ -395,7 +398,8 @@
     <string name="live_display_mode">Display mode</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label">
+        <xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Day</string>
     <string name="live_display_night">Night</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
@@ -475,7 +479,8 @@
 
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g>
+    </string>
     <string name="app_notification_sound_timeout_value_none">No restriction</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
@@ -529,7 +534,7 @@
     <string name="advanced_battery_saving_title">Advanced Battery Saving</string>
     <string name="advanced_battery_saving_summary">Advanced battery settings for saving battery</string>
 
-        <!-- Alarm blocker -->
+    <!-- Alarm blocker -->
     <string name="alarm_blocker">Alarm blocker</string>
     <string name="alarm_blocker_title">Enable</string>
     <string name="alarm_blocker_summary">Block alarms while screen off</string>
@@ -547,22 +552,24 @@
     <string name="wakelock_blocker_warning_title">Proceed with caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
 
-        <!-- Ambient Wake gesture -->
+    <!-- Ambient Wake gesture -->
     <string name="ambient_pulse_title">Ambient Pulse</string>
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
 
-        <!-- Sensor block per-package -->
+    <!-- Sensor block per-package -->
     <string name="sensor_block_title">Sensor block per-package</string>
     <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
     <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
     <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
     <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
 
-        <!-- Sleep Mode -->
+    <!-- Sleep Mode -->
     <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g>
+    </string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g>
+    </string>
     <string name="sleep_mode_ringer_title">Ringer mode</string>
     <string name="sleep_mode_ringer_off_title">Do not change</string>
     <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
@@ -583,12 +590,16 @@
     <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
     <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
     <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_idle_manager_toggle_title">Enable Idle-Manager when Sleep mode is turned on</string>
+    <string name="sleep_mode_idle_manager_toggle_title">Enable Idle-Manager </string>
     <string name="sleep_mode_idle_manager_toggle_summary">Enable Idle-Manager when Sleep mode is turned on</string>
-    <string name="sleep_mode_aod_toggle_title">Disable AOD when Sleep mode is turned on</string>
+    <string name="sleep_mode_aod_toggle_title">Disable AOD </string>
     <string name="sleep_mode_aod_toggle_summary">Disable Always on when Sleep mode is turned on</string>
-    <string name="sleep_mode_extra_dark_toggle_title">Enables Extra dark when Sleep mode is turned on</string>
+    <string name="sleep_mode_extra_dark_toggle_title">Enables Extra dark </string>
     <string name="sleep_mode_extra_dark_toggle_summary">Enables Extra dark on when Sleep mode is turned on</string>
+    <string name="sleep_mode_alarm_blocker_toggle_title">Enables alarm blocker</string>
+    <string name="sleep_mode_alarm_blocker_toggle_summary">Enables the alarm blocker when sleep mode is on</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_title">Enables wakelock blocker</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_summary">Activates the wakelock blocker when sleep mode is on</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 
 </resources>

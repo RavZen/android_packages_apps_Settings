@@ -83,6 +83,18 @@
             android:defaultValue="true" />
 
         <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="sleep_mode_alarm_blocker_toggle"
+            android:title="@string/sleep_mode_alarm_blocker_toggle_title"
+            android:summary="@string/sleep_mode_alarm_blocker_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
+            android:key="sleep_mode_wakelock_blocker_toggle"
+            android:title="@string/sleep_mode_wakelock_blocker_toggle_title"
+            android:summary="@string/sleep_mode_wakelock_blocker_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.evolution.settings.preference.SecureSettingSwitchPreference
             android:key="sleep_mode_extra_dark_toggle"
             android:title="@string/sleep_mode_extra_dark_toggle_title"
             android:summary="@string/sleep_mode_extra_dark_toggle_summary"
