@@ -70,6 +70,24 @@
             android:summary="@string/sleep_mode_sensors_toggle_summary"
             android:defaultValue="true" />
 
+        <com.derp.support.preferences.SecureSettingSwitchPreference
+            android:key="sleep_mode_idle_manager_toggle"
+            android:title="@string/sleep_mode_idle_manager_toggle_title"
+            android:summary="@string/sleep_mode_idle_manager_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.derp.support.preferences.SecureSettingSwitchPreference
+            android:key="sleep_mode_aod_toggle"
+            android:title="@string/sleep_mode_aod_toggle_title"
+            android:summary="@string/sleep_mode_idle_manager_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.derp.support.preferences.SecureSettingSwitchPreference
+            android:key="sleep_mode_extra_dark_toggle"
+            android:title="@string/sleep_mode_extra_dark_toggle_title"
+            android:summary="@string/sleep_mode_extra_dark_toggle_summary"
+            android:defaultValue="true" />
+
         <com.derp.support.preferences.SecureSettingListPreference
             android:key="sleep_mode_ringer_mode"
             android:title="@string/sleep_mode_ringer_title"
@@ -77,6 +95,7 @@
             android:entryValues="@array/sleep_mode_ringer_values"
             android:defaultValue="0"
             android:summary="%s" />
+
     </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
