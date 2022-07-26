@@ -64,7 +64,7 @@
             android:summary="@string/sleep_mode_location_toggle_summary"
             android:defaultValue="true" />
 
-        <!-- <com.evolution.settings.preference.SecureSettingSwitchPreference
+        <!-- <com.derp.support.preferences.SecureSettingSwitchPreference
             android:key="sleep_mode_sensors_toggle"
             android:title="@string/sleep_mode_sensors_toggle_title"
             android:summary="@string/sleep_mode_sensors_toggle_summary"
@@ -80,6 +80,18 @@
             android:key="sleep_mode_aod_toggle"
             android:title="@string/sleep_mode_aod_toggle_title"
             android:summary="@string/sleep_mode_idle_manager_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.derp.support.preferences.SecureSettingSwitchPreference
+            android:key="sleep_mode_alarm_blocker_toggle"
+            android:title="@string/sleep_mode_alarm_blocker_toggle_title"
+            android:summary="@string/sleep_mode_alarm_blocker_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.derp.support.preferences.SecureSettingSwitchPreference
+            android:key="sleep_mode_wakelock_blocker_toggle"
+            android:title="@string/sleep_mode_wakelock_blocker_toggle_title"
+            android:summary="@string/sleep_mode_wakelock_blocker_toggle_summary"
             android:defaultValue="true" />
 
         <com.derp.support.preferences.SecureSettingSwitchPreference

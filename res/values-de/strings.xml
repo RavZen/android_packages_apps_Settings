@@ -5635,10 +5635,16 @@
     <string name="sleep_mode_location_toggle_summary">Standort deaktivieren, wenn der Ruhemodus eingeschaltet ist</string>
     <string name="sleep_mode_sensors_toggle_title">Sensoren ausschalten</string>
     <string name="sleep_mode_sensors_toggle_summary">Sensoren ausschalten, wenn der Schlafmodus eingeschaltet ist</string>
-    <string name="sleep_mode_aod_toggle_title">AOD deaktivieren, wenn der Schlafmodus eingeschaltet ist</string>
-    <string name="sleep_mode_aod_toggle_summary">Immer eingeschaltet, wenn der Schlafmodus eingeschaltet ist</string>
-    <string name="sleep_mode_extra_dark_toggle_title">Aktiviert Extra dunkel, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_aod_toggle_title">AOD deaktivieren</string>
+    <string name="sleep_mode_aod_toggle_summary">AOD ausschalten wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_extra_dark_toggle_title">Extra Dunkel aktivieren</string>
     <string name="sleep_mode_extra_dark_toggle_summary">Aktiviert Extra dunkel, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_idle_manager_toggle_title">Ruhezustand-Manager aktivieren  </string>
+    <string name="sleep_mode_idle_manager_toggle_summary">Ruhezustand-Manager wird aktiviert wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_alarm_blocker_toggle_title">Alarmblocker aktivieren</string>
+    <string name="sleep_mode_alarm_blocker_toggle_summary">Aktiviert den Alarmblocker, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_title">Wakelockblocker aktivieren</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_summary">Aktiviert den Wakelock blocker, wenn der Schlafmodus eingeschaltet ist</string>
     <string name="sleep_mode_display_text">Im Schlafmodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon im Schlaf leise zu stellen.</string>
     <string name="sensor_block_summary">Blockiert sensor zugriff der apps um Batterie zu sparen</string>
 </resources>

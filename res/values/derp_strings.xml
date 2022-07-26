@@ -693,10 +693,12 @@
     <string name="advanced_battery_saving_title">Advanced Battery Saving</string>
     <string name="advanced_battery_saving_summary">Advanced battery settings for saving battery</string>
 
-        <!-- Sleep Mode -->
+     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g>
+    </string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g>
+    </string>
     <string name="sleep_mode_ringer_title">Ringer mode</string>
     <string name="sleep_mode_ringer_off_title">Do not change</string>
     <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
@@ -717,12 +719,16 @@
     <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
     <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
     <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_idle_manager_toggle_title">Enable Idle-Manager when Sleep mode is turned on</string>
+    <string name="sleep_mode_idle_manager_toggle_title">Enable Idle-Manager </string>
     <string name="sleep_mode_idle_manager_toggle_summary">Enable Idle-Manager when Sleep mode is turned on</string>
-    <string name="sleep_mode_aod_toggle_title">Disable AOD when Sleep mode is turned on</string>
+    <string name="sleep_mode_aod_toggle_title">Disable AOD </string>
     <string name="sleep_mode_aod_toggle_summary">Disable Always on when Sleep mode is turned on</string>
-    <string name="sleep_mode_extra_dark_toggle_title">Enables Extra dark when Sleep mode is turned on</string>
+    <string name="sleep_mode_extra_dark_toggle_title">Enables Extra dark </string>
     <string name="sleep_mode_extra_dark_toggle_summary">Enables Extra dark on when Sleep mode is turned on</string>
+    <string name="sleep_mode_alarm_blocker_toggle_title">Enables alarm blocker</string>
+    <string name="sleep_mode_alarm_blocker_toggle_summary">Enables the alarm blocker when sleep mode is on</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_title">Enables wakelock blocker</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_summary">Activates the wakelock blocker when sleep mode is on</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 
 </resources>
