@@ -80,12 +80,6 @@
         settings:keywords="@string/keywords_battery_adaptive_preferences" />
 
     <Preference
-        android:key="sensor_block_settings"
-        android:title="@string/sensor_block_title"
-        android:summary="@string/sensor_block_summary"
-        android:fragment="com.android.settings.applications.sensors.SensorBlock"/>
-
-    <Preference
         android:key="advanced_battery_saving"
         android:title="@string/advanced_battery_saving_title"
         android:summary="@string/advanced_battery_saving_summary"
