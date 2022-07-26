@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- DerpFest version -->
-    <string name="derp_version">DerpFest version</string>
+    <string name="derp_version">Ravzen version</string>
     <string name="derp_version_default">Unknown</string>
 
     <!-- Platform version -->
@@ -28,8 +28,8 @@
     <string name="maintainer_telegram" translatable="false">https://t.me/DerpFest5T</string>
 
     <!-- DerpFest Updater -->
-    <string name="update_settings_title">DerpFest Updater</string>
-    <string name="update_settings_summary">Check for the latest version of DerpFest</string>
+    <string name="update_settings_title">Ravzen Updater</string>
+    <string name="update_settings_summary">Check for the latest version of Ravzen</string>
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 

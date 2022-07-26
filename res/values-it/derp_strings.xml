@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- DerpFest version -->
-    <string name="derp_version">Versione DerpFest</string>
+    <string name="derp_version">Versione Ravzen</string>
     <string name="derp_version_default">Sconosciuto</string>
 
     <!-- Platform version -->
@@ -26,8 +26,8 @@
     <string name="maintainer">Manutentore</string>
 
     <!-- DerpFest Updater -->
-    <string name="update_settings_title">Aggiornamenti DerpFest</string>
-    <string name="update_settings_summary">Controlla l\'ultima versione di DerpFest</string>
+    <string name="update_settings_title">Aggiornamenti Ravzen</string>
+    <string name="update_settings_summary">Controlla l\'ultima versione di Ravzen</string>
 
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Lingue, gesti, aggiornamenti, ora, backup</string>
