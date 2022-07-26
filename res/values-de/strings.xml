@@ -5645,6 +5645,8 @@
     <string name="sleep_mode_alarm_blocker_toggle_summary">Aktiviert den Alarmblocker, wenn der Schlafmodus eingeschaltet ist</string>
     <string name="sleep_mode_wakelock_blocker_toggle_title">Wakelockblocker aktivieren</string>
     <string name="sleep_mode_wakelock_blocker_toggle_summary">Aktiviert den Wakelock blocker, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_sensor_block_toggle_title">Sensor blocker aktivieren</string>
+    <string name="sleep_mode_sensor_block_toggle_summary">Aktiviert den Sensor blocker, wenn der Schlafmodus eingeschaltet ist</string>
     <string name="sleep_mode_display_text">Im Schlafmodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon im Schlaf leise zu stellen.</string>
     <string name="sensor_block_summary">Blockiert sensor zugriff der apps um Batterie zu sparen</string>
 </resources>

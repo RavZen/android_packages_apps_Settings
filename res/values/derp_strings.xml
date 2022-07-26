@@ -729,6 +729,8 @@
     <string name="sleep_mode_alarm_blocker_toggle_summary">Enables the alarm blocker when sleep mode is on</string>
     <string name="sleep_mode_wakelock_blocker_toggle_title">Enables wakelock blocker</string>
     <string name="sleep_mode_wakelock_blocker_toggle_summary">Activates the wakelock blocker when sleep mode is on</string>
+    <string name="sleep_mode_sensor_block_toggle_title">Enables Sensor blocker</string>
+    <string name="sleep_mode_sensor_block_toggle_summary">Activates the Sensor blocker when sleep mode is on</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 
 </resources>
