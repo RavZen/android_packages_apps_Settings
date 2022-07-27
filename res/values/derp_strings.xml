@@ -690,4 +690,6 @@
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Battery optimization availability</string>
 
+    <string name="advanced_battery_saving_title">Advanced Battery Saving</string>
+    <string name="advanced_battery_saving_summary">Advanced battery settings for saving battery</string>
 </resources>
