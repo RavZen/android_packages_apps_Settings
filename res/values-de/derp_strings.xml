@@ -589,6 +589,10 @@
     <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
 
     <!-- High touch sensitivity -->
+    <string name="touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
+    <string name="touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
+
+    <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
 
