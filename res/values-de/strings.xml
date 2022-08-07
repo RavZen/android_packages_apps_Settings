@@ -5623,4 +5623,8 @@
         <!-- Doze on charge -->
     <string name="doze_on_charge_title">AOD beim Laden</string>
     <string name="doze_on_charge_summary">Während des Ladevorgangs wird der Ruhebildschirm ständig angezeigt</string>
+
+        <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Was tun?</string>
+    <string name="double_tap_sleep_lockscreen_title">Sperrbildschirm doppeltippen für Ruhemodus</string>
 </resources>
