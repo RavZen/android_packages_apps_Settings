@@ -297,6 +297,6 @@ public class SleepMode extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DERP;
+        return MetricsProto.MetricsEvent.STATIX;
     }
 }

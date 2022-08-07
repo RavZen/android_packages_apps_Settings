@@ -40,37 +40,50 @@
         android:key="sleep_mode_toggles"
         android:title="@string/sleep_mode_toggles_title">
 
-        <com.derp.support.preferences.SecureSettingSwitchPreference
+        <com.statix.support.preferences.SecureSettingSwitchPreference
             android:key="sleep_mode_wifi_toggle"
             android:title="@string/sleep_mode_wifi_toggle_title"
             android:summary="@string/sleep_mode_wifi_toggle_summary"
             android:defaultValue="true" />
 
-        <com.derp.support.preferences.SecureSettingSwitchPreference
+        <com.statix.support.preferences.SecureSettingSwitchPreference
             android:key="sleep_mode_bluetooth_toggle"
             android:title="@string/sleep_mode_bluetooth_toggle_title"
             android:summary="@string/sleep_mode_bluetooth_toggle_summary"
             android:defaultValue="true" />
 
-        <com.derp.support.preferences.SecureSettingSwitchPreference
+        <com.statix.support.preferences.SecureSettingSwitchPreference
             android:key="sleep_mode_cellular_toggle"
             android:title="@string/sleep_mode_cellular_toggle_title"
             android:summary="@string/sleep_mode_cellular_toggle_summary"
             android:defaultValue="true" />
 
-        <com.derp.support.preferences.SecureSettingSwitchPreference
+        <com.statix.support.preferences.SecureSettingSwitchPreference
             android:key="sleep_mode_location_toggle"
             android:title="@string/sleep_mode_location_toggle_title"
             android:summary="@string/sleep_mode_location_toggle_summary"
             android:defaultValue="true" />
 
-        <com.derp.support.preferences.SecureSettingListPreference
+        <com.statix.support.preferences.SecureSettingSwitchPreference
+            android:key="sleep_mode_aod_toggle"
+            android:title="@string/sleep_mode_aod_toggle_title"
+            android:summary="@string/sleep_mode_aod_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.statix.support.preferences.SecureSettingSwitchPreference
+            android:key="sleep_mode_extra_dark_toggle"
+            android:title="@string/sleep_mode_extra_dark_toggle_title"
+            android:summary="@string/sleep_mode_extra_dark_toggle_summary"
+            android:defaultValue="true" />
+
+        <com.statix.support.preferences.SecureSettingListPreference
             android:key="sleep_mode_ringer_mode"
             android:title="@string/sleep_mode_ringer_title"
             android:entries="@array/sleep_mode_ringer_entries"
             android:entryValues="@array/sleep_mode_ringer_values"
             android:defaultValue="0"
             android:summary="%s" />
+
     </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
