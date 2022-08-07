@@ -5617,4 +5617,7 @@
     <string name="sleep_mode_extra_dark_toggle_summary">Aktiviert Extra dunkel, wenn der Schlafmodus eingeschaltet ist</string>
     <string name="sleep_mode_display_text">Im Schlafmodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon im Schlaf leise zu stellen.</string>
     <string name="sensor_block_summary">Blockiert sensor zugriff der apps um Batterie zu sparen</string>
+
+        <!-- Battery temperature -->
+    <string name="battery_temperature">Akkutemperatur</string>
 </resources>
