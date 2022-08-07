@@ -5620,4 +5620,7 @@
 
         <!-- Battery temperature -->
     <string name="battery_temperature">Akkutemperatur</string>
+        <!-- Doze on charge -->
+    <string name="doze_on_charge_title">AOD beim Laden</string>
+    <string name="doze_on_charge_summary">Während des Ladevorgangs wird der Ruhebildschirm ständig angezeigt</string>
 </resources>
