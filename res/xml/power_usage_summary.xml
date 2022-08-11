@@ -65,12 +65,6 @@
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
     <Preference
-       	android:key="statusbar_battery"
-        android:title="@string/battery_percent_title"
-        android:summary="@string/battery_percent_summary"
-        android:fragment="com.android.settings.fuelgauge.StatusBarBatterySettings"/>
-
-    <Preference
         android:key="sleep_mode"
         android:title="@string/sleep_mode_title"
         android:fragment="com.android.settings.fuelgauge.sleepmode.SleepMode" />
