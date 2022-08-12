@@ -325,4 +325,7 @@ public class Settings extends SettingsActivity {
      */
     public static class AppDashboardActivity extends SettingsActivity {}
     public static class SleepModeActivity extends SettingsActivity {}
+    
+    // System Configurator
+    public static class DerpSpaceSettingsActivity extends SettingsActivity {}
 }
